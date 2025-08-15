@@ -6,10 +6,22 @@ This setup serves as the foundational environment for all subsequent projects in
 
 ---
 
+## ✅ Skills Demonstrated
+
+Successfully completing this foundational setup demonstrates core competencies in:
+
+-   **Systems Administration:** Proficiently installing and configuring a Linux (Ubuntu 22.04) environment from scratch, including disk partitioning for dual-boot systems.
+-   **Hardware & Driver Management:** Correctly installing and verifying proprietary NVIDIA drivers on Linux, including handling dependencies and Secure Boot (MOK) enrollment.
+-   **Distributed Systems & Networking:** Establishing and verifying a multi-machine ROS 2 network, proving an understanding of distributed computing and the DDS discovery mechanism.
+-   **Embedded & Edge AI Systems:** Flashing and configuring an embedded device (NVIDIA Jetson) with the JetPack SDK, preparing it for sim-to-real deployment.
+-   **Version Control & Professional Documentation:** Utilizing Git and GitHub for version control and maintaining high-quality, structured documentation for a technical project.
+
+---
+
 ## 🚀 Key Components
 
 1.  **Host Development Workstation:** A powerful PC running Ubuntu 22.04, equipped with an NVIDIA RTX GPU for high-fidelity simulation and AI model training.
-2.  **Edge AI Device:** An NVIDIA Jetson Orin Nano for developing and testing "sim-to-real" deployments, running perception and control algorithms on physical hardware.
+2.  **Edge AI Device:** An NVIDIA Jetson Orin Nano for developing and testing "sim-to-real" deployments.
 
 ---
 
@@ -29,11 +41,11 @@ This setup serves as the foundational environment for all subsequent projects in
 
 Detailed, step-by-step instructions and verification checklists for each component are located in the following documents:
 
--   **[`host-pc-setup.md`](./host-pc-setup.md):** Complete guide for setting up the host workstation, from OS installation to NVIDIA drivers.
--   **[`jetson-setup.md`](./jetson-setup.md):** Complete guide for flashing and configuring the Jetson Orin Nano and verifying network communication.
+-   [`host-pc-setup.md`](./host-pc-setup.md): Complete guide for the host workstation setup.
+-   [`jetson-setup.md`](./jetson-setup.md): Complete guide for the Jetson Orin Nano setup.
 
 ---
 
-## ✅ Status
+## 📜 License
 
-**Phase 1 is 100% complete and verified.** The host and edge devices are fully configured and can communicate seamlessly over the network using ROS 2.
+This project is licensed under the Apache 2.0 License. See the [`LICENSE`](./LICENSE) file for details.
