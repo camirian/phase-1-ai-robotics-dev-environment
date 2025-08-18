@@ -2,7 +2,7 @@
 
 This repository documents the complete setup and configuration of a professional-grade development environment for advanced robotics and AI applications. The goal is to establish a robust, reproducible, and distributed system consisting of a powerful host development workstation and a physical edge AI device (NVIDIA Jetson).
 
-This setup serves as the foundational environment for all subsequent projects in my AI Robotics Portfolio.
+This setup serves as the foundational environment for all subsequent projects in my AI Robotics Portfolio. For definitions of key terms, please see my central **[AI & Robotics Glossary](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md)**.
 
 ---
 
@@ -12,28 +12,24 @@ Successfully completing this foundational setup demonstrates core competencies i
 
 -   **Systems Administration:** Proficiently installing and configuring a Linux (Ubuntu 22.04) environment from scratch, including disk partitioning for dual-boot systems.
 -   **Hardware & Driver Management:** Correctly installing and verifying proprietary NVIDIA drivers on Linux, including handling dependencies and Secure Boot (MOK) enrollment.
--   **Distributed Systems & Networking:** Establishing and verifying a multi-machine ROS 2 network, proving an understanding of distributed computing and the DDS discovery mechanism.
+-   **Distributed Systems & Networking:** Establishing and verifying a multi-machine ROS 2 network, proving an understanding of the DDS discovery mechanism.
 -   **Embedded & Edge AI Systems:** Flashing and configuring an embedded device (NVIDIA Jetson) with the JetPack SDK, preparing it for sim-to-real deployment.
 -   **Version Control & Professional Documentation:** Utilizing Git and GitHub for version control and maintaining high-quality, structured documentation for a technical project.
 
 ---
 
-## 🚀 Key Components
-
-1.  **Host Development Workstation:** A powerful PC running Ubuntu 22.04, equipped with an NVIDIA RTX GPU for high-fidelity simulation and AI model training.
-2.  **Edge AI Device:** An NVIDIA Jetson Orin Nano for developing and testing "sim-to-real" deployments.
-
----
-
-## 🛠️ Software Stack
+## 🛠️ Software Stack & Key Tools
 
 | Component             | Version / Type                   | Purpose                                    |
 | --------------------- | -------------------------------- | ------------------------------------------ |
 | Operating System      | Ubuntu 22.04 LTS                 | Standard for robotics development          |
-| Robotics Middleware   | ROS 2 Humble Hawksbill           | Core communication and tooling framework   |
+| Robotics Middleware   | [ROS 2 Humble](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#ros-ros-2) | Core communication and tooling framework   |
 | GPU Driver            | NVIDIA Proprietary Driver 5xx.xx | Enables GPU acceleration for AI/Sim        |
-| Simulation Platform   | NVIDIA Isaac Sim                 | High-fidelity physics simulation & sensor data |
-| Edge AI SDK           | NVIDIA JetPack                   | OS & libraries for the Jetson platform     |
+| Simulation Platform   | [Isaac Sim](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#isaac-sim) | High-fidelity physics simulation & sensor data |
+| Edge AI SDK           | [JetPack SDK](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#jetpack-sdk) | OS & libraries for the Jetson platform     |
+| Version Control       | [Git](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#git) | Tracking changes and managing project history |
+| Code Hosting          | [GitHub](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#github) / `gh` CLI | Publicly showcasing and managing repositories |
+| Build Tool            | [Colcon](https://github.com/YOUR_USERNAME/phase-0-robotics-glossary/blob/main/GLOSSARY.md#colcon) | Building ROS 2 packages and workspaces     |
 
 ---
 
